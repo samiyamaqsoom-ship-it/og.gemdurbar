@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Gemdurbar | Gemstone Guidance</title>
+
+  <!-- CSS FILE -->
+  <link rel="stylesheet" href="gemguide.css">
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- NAVBAR -->
+    <nav class="navbar">
+
+        <!-- LEFT SIDE -->
+        <div class="nav-left">
+
+            <!-- MENU BUTTON -->
+            <div class="menu-btn" id="menuBtn">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+            <!-- LOGO -->
+           <a href="index.html">
+            <h1 class="logo">
+                GEMDURBAR
+            </h1>
+           </a>
+
+        </div>
+
+    </nav>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar" id="sidebar">
+
+        <!-- CLOSE BUTTON -->
+        <div class="close-btn" id="closeBtn">
+            &times;
+        </div>
+
+        <!-- SIDEBAR LOGO -->
+        <h1 class="sidebar-logo">
+            GEMDURBAR
+        </h1>
+
+        <!-- NAV LINKS -->
+        <a href="index.html">Home</a>
+
+        <a href="allgems.html">All Gems</a>
+
+        <a href="custom.html">Custom Designs</a>
+
+        <a href="gemguide.html">Gem Guide</a>
+
+        <a href="index.html#footer">About</a>
+
+    </div>
+
+    <!-- OVERLAY -->
+    <div class="overlay" id="overlay"></div>
+
+
+<!-- OVERLAY -->
+<div class="overlay" id="overlay"></div>
+
+<script>const menuBtn = document.getElementById("menuBtn");
+
+const sidebar = document.getElementById("sidebar");
+
+const closeBtn = document.getElementById("closeBtn");
+
+const overlay = document.getElementById("overlay");
+
+/* OPEN MENU */
+menuBtn.addEventListener("click", () => {
+
+    sidebar.classList.add("active");
+
+    overlay.classList.add("active");
+
+    menuBtn.classList.add("active");
+
+});
+
+/* CLOSE FUNCTION */
+function closeMenu(){
+
+    sidebar.classList.remove("active");
+
+    overlay.classList.remove("active");
+
+    menuBtn.classList.remove("active");
+
+}
+
+/* CLOSE BUTTON */
+closeBtn.addEventListener("click", closeMenu);
+
+/* OVERLAY CLICK */
+overlay.addEventListener("click", closeMenu);</script>
+<!-- HERO SECTION -->
+    <section class="hero">
+    <div class="hero-content">
+
+        <p class="hero-tagline">
+            GEMDURBAR PRESENTS
+        </p>
+
+        <h1>
+            Discover the World of
+            <span>Precious Gemstones</span>
+        </h1>
+
+        <p class="hero-description">
+            Your ultimate guide to gemstone origins, quality,
+            authenticity, rarity, and investment value. Explore
+            expertly curated knowledge designed for collectors,
+            enthusiasts, and connoisseurs.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#" class="btn-primary">Explore Guide</a>
+            <a href="#" class="btn-secondary">Learn More</a>
+        </div>
+
+    </div>
+</section>
+    
+    <div class="section-title">
+      <span>GUIDANCE</span>
+    </div>
+
+    <!-- GUIDANCE LIST -->
+
+    <div class="guidance-container">
+
+      <!-- RUBY -->
+
+      <div class="gem-card">
+        <h2>Ruby</h2>
+
+        <ul>
+          <li>Symbolizes passion, luxury, and confidence.</li>
+          <li>Best cleaned with warm water and soft cloth.</li>
+          <li>Avoid harsh chemicals and direct impact.</li>
+          <li>Popular in rings and royal jewellery designs.</li>
+          <li>Store separately to avoid scratches.</li>
+        </ul>
+      </div>
+
+      <!-- EMERALD -->
+
+      <div class="gem-card">
+        <h2>Emerald</h2>
+
+        <ul>
+          <li>Represents peace, wisdom, and prosperity.</li>
+          <li>Protect from sudden temperature changes.</li>
+          <li>Use microfiber cloth for safe cleaning.</li>
+          <li>Do not use ultrasonic cleaners.</li>
+          <li>Keep in a soft jewellery pouch.</li>
+        </ul>
+      </div>
+
+      <!-- SAPPHIRE -->
+
+      <div class="gem-card">
+        <h2>Sapphire</h2>
+
+        <ul>
+          <li>Known for loyalty, strength, and elegance.</li>
+          <li>Highly durable for everyday wear.</li>
+          <li>Clean using mild soap and warm water.</li>
+          <li>Avoid hard impacts to maintain shine.</li>
+          <li>Looks premium in modern jewellery.</li>
+        </ul>
+      </div>
+
+      <!-- DIAMOND -->
+
+      <div class="gem-card">
+        <h2>Diamond</h2>
+
+        <ul>
+          <li>Represents purity and everlasting love.</li>
+          <li>Requires regular cleaning for brilliance.</li>
+          <li>Store carefully to protect other gems.</li>
+          <li>Use soft brush for deep cleaning.</li>
+          <li>Perfect for luxury and engagement jewellery.</li>
+        </ul>
+      </div>
+
+      <!-- OPAL -->
+
+      <div class="gem-card">
+        <h2>Opal</h2>
+
+        <ul>
+          <li>Known for creativity and emotional balance.</li>
+          <li>Protect from excessive heat and dryness.</li>
+          <li>Handle carefully because it is delicate.</li>
+          <li>Clean only with soft damp cloth.</li>
+          <li>Store in cool and slightly humid place.</li>
+        </ul>
+      </div>
+
+      <!-- TOPAZ -->
+
+      <div class="gem-card">
+        <h2>Topaz</h2>
+
+        <ul>
+          <li>Associated with clarity and confidence.</li>
+          <li>Avoid long exposure to sunlight.</li>
+          <li>Wash gently with lukewarm water.</li>
+          <li>Protect from scratches and hard falls.</li>
+          <li>Excellent choice for elegant jewellery.</li>
+        </ul>
+      </div>
+
+      <!-- AMETHYST -->
+
+      <div class="gem-card">
+        <h2>Amethyst</h2>
+
+        <ul>
+          <li>Represents calmness and spiritual balance.</li>
+          <li>Keep away from prolonged sunlight.</li>
+          <li>Clean using soft cloth and mild soap.</li>
+          <li>Popular for stylish fashion jewellery.</li>
+          <li>Store safely to preserve color quality.</li>
+        </ul>
+      </div>
+
+      <!-- AQUAMARINE -->
+
+      <div class="gem-card">
+        <h2>Aquamarine</h2>
+
+        <ul>
+          <li>Known for serenity and clarity.</li>
+          <li>Clean gently using warm water.</li>
+          <li>Avoid rough handling and hard surfaces.</li>
+          <li>Store in separate soft-lined box.</li>
+          <li>Popular for elegant blue jewellery designs.</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+</html>

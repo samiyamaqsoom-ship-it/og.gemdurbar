@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Gemdurbar</title>
+
+  <link rel="stylesheet" href="gemdurbar.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+
+        <!-- LEFT SIDE -->
+        <div class="nav-left">
+
+            <!-- MENU BUTTON -->
+            <div class="menu-btn" id="menuBtn">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+            <!-- LOGO -->
+            <a href="index.html"><h1 class="logo">
+                GEMDURBAR
+            </h1>
+          </a>
+           <nav class="navr">
+      <a href="index.html">Home</a>
+      <a href="allgems.html">All Gems</a>
+      <a href="custom.html">Custom Design</a>
+      <a href="gemguide.html">Gem Guide</a>
+      <a href="#footer">About</a>
+    </nav>
+        </div>
+
+    </nav>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar" id="sidebar">
+
+        <!-- CLOSE BUTTON -->
+        <div class="close-btn" id="closeBtn">
+            &times;
+        </div>
+
+        <!-- SIDEBAR LOGO -->
+        <h1 class="sidebar-logo">
+            GEMDURBAR
+        </h1>
+
+        <!-- NAV LINKS -->
+        <a href="gemdurbar.html">Home</a>
+
+        <a href="allgems.html">All Gems</a>
+
+        <a href="custom.html">Custom Designs</a>
+
+        <a href="gemguide.html">Gem Guide</a>
+
+        <a href="#footer">About</a>
+
+    </div>
+  
+
+    <!-- OVERLAY -->
+    <div class="overlay" id="overlay"></div>
+
+
+<!-- OVERLAY -->
+<div class="overlay" id="overlay"></div>
+
+<script>const menuBtn = document.getElementById("menuBtn");
+
+const sidebar = document.getElementById("sidebar");
+
+const closeBtn = document.getElementById("closeBtn");
+
+const overlay = document.getElementById("overlay");
+
+/* OPEN MENU */
+menuBtn.addEventListener("click", () => {
+
+    sidebar.classList.add("active");
+
+    overlay.classList.add("active");
+
+    menuBtn.classList.add("active");
+
+});
+
+/* CLOSE FUNCTION */
+function closeMenu(){
+
+    sidebar.classList.remove("active");
+
+    overlay.classList.remove("active");
+
+    menuBtn.classList.remove("active");
+
+}
+
+/* CLOSE BUTTON */
+closeBtn.addEventListener("click", closeMenu);
+
+/* OVERLAY CLICK */
+overlay.addEventListener("click", closeMenu);</script>
+  </script>
+  <!-- HERO SECTION -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>
+        Royal Gems <br>
+        Timeless Luxury
+      </h1>
+
+      <p>
+        Discover premium gemstones, handcrafted jewellery,
+        and luxury custom designs from Gemdurbar.
+      </p>
+
+      <a href="allgems.html"><button>Explore Collection</button></a>
+
+    </div>
+
+  </section>
+
+  <!-- FEATURES -->
+
+  <section class="features">
+
+    <div class="feature-box">
+      <h3>Certified Gems</h3>
+      <p>100% authentic gemstones with certification.</p>
+    </div>
+
+    <div class="feature-box">
+      <h3>Luxury Jewellery</h3>
+      <p>Elegant handcrafted jewellery collections.</p>
+    </div>
+
+    <div class="feature-box">
+      <h3>Worldwide Delivery</h3>
+      <p>Fast and secure international shipping.</p>
+    </div>
+
+    <div class="feature-box">
+      <h3>Custom Design</h3>
+      <p>Create your dream jewellery design.</p>
+    </div>
+
+  </section>
+
+  <section class="gems-section">
+
+    <h2>Trending Gemstones</h2>
+
+    <div class="gems-grid">
+
+      <div class="gem-card">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.kPbQWKsbl1dwUe0jshqLVgHaEJ?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <h3>Rubies</h3>
+      </div>
+
+      <div class="gem-card">
+        <img src="https://png.pngtree.com/background/20230522/original/pngtree-3d-emerald-gems-on-black-background-3d-stock-photo-picture-image_2686596.jpg">
+        <h3>Emeralds</h3>
+      </div>
+
+      <div class="gem-card">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.OOrg1laK39PgbnKSNvIvwAHaHa?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <h3>Diamonds</h3>
+      </div>
+
+      <div class="gem-card">
+        <img src="https://png.pngtree.com/background/20230424/original/pngtree-necklace-of-pearls-is-sitting-on-a-table-picture-image_2458895.jpg">
+        <h3>Pearls</h3>
+      </div>
+
+      <div class="gem-card">
+        <img src="https://img.freepik.com/premium-photo/seamless-background-topaz-background-hd-generative-ai_913266-10539.jpg?w=2000">
+        <h3>Topaz</h3>
+      </div>
+
+      <div class="gem-card">
+        <img src="https://img.freepik.com/premium-photo/blue-diamonds-black-background_961875-440537.jpg">
+        <h3>Sapphire</h3>
+      </div>
+
+    </div>
+      
+  </section>
+<div class="cursor-glow"></div>
+
+
+  <!-- BANNER SECTION -->
+   
+<div class="banner-slider">
+
+  <div class="slides fade">
+    <img src="https://i.etsystatic.com/5977424/r/isbl/f33c47/62994404/isbl_3360x840.62994404_8474mre7.jpg" alt="Banner 1">
+  </div>
+
+  <div class="slides fade">
+    <img src="https://static.vecteezy.com/system/resources/previews/066/658/887/non_2x/elegant-eid-al-adha-sale-banner-with-festive-decorations-and-golden-elements-vector.jpg" alt="Banner 2">
+  </div>
+
+  <div class="slides fade">
+    <img src="https://htpgemstones.com/assets/upload/banner/gemstone-banner-12.jpg" alt="Banner 3">
+  </div>
+
+</div>
+
+  <!-- SERVICES -->
+
+  <section class="services">
+
+    <h2>Our Services</h2>
+
+    <div class="services-grid">
+
+      <a href="custom.html">
+        <div class="service-card">
+        <h3>Gem Cutting</h3>
+        <p>Professional gemstone cutting and polishing.</p>
+      </div>
+      </a>
+
+      <a href="custom.html">
+        <div class="service-card">
+        <h3>Ring Customization</h3>
+        <p>Luxury engagement and custom ring creation.</p>
+      </div>
+    </a>
+
+      <div class="service-card">
+        <h3>Jewellery Repair</h3>
+        <p>Premium jewellery repair and restoration.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Expert Consultation</h3>
+        <p>Get gemstone advice from professionals.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- COLLECTION -->
+
+  <section class="collection">
+
+    <div class="collection-content">
+
+      <h2>Exclusive Royal Collection</h2>
+
+      <p>
+        Premium handcrafted jewellery with rare gemstones.
+      </p>
+      <a href="allgems.html"><button style=" display:inline-block;padding:15px 35px;background:#ffd700;color:#000;text-decoration:none;font-weight:600;border-radius:50px;transition:0.4s; 
+a{
+    button {
+    border: none;
+    outline: none;
+}
+}">
+view collection</button></a>
+
+    </div>
+
+  </section>
+  
+
+
+  <!-- FOOTER -->
+
+  <footer id="footer">
+    <footer class="footer">
+      <span class="about-tag2">ABOUT US</span>
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h2>Gemdurbar</h2>
+      <p>Premium gemstones crafted with timeless elegance.</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">All Gems</a>
+      <a href="#">Guidance</a>
+      <a href="#">Custom Designs</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Contact:-</h3>
+      <P>STORE:</P>
+      <p>India,Telangana</p>
+      <p>HYDERABAD</p>
+      <p>Email: gemdurbar@gmail.com</p>
+      <p>Phone: +91 XXXXX XXXXX</p>
+      
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Gemdurbar. All Rights Reserved.
+  </div>
+</footer>
+</footer>
+</body>
+</html>
+    
+</body>
+</html>

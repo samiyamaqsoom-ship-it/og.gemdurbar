@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Gemdurbar | Custom Designs</title>
+
+  <!-- CSS FILE -->
+  <link rel="stylesheet" href="custom.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body><!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gemdurbar</title>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="custom.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+
+        <!-- LEFT SIDE -->
+        <div class="nav-left">
+
+            <!-- MENU BUTTON -->
+            <div class="menu-btn" id="menuBtn">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+            <!-- LOGO -->
+            <a href="index.html">
+              <h1 class="logo">
+                GEMDURBAR
+            </h1>
+            </a>
+        </div>
+
+    </nav>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar" id="sidebar">
+
+        <!-- CLOSE BUTTON -->
+        <div class="close-btn" id="closeBtn">
+            &times;
+        </div>
+
+        <!-- SIDEBAR LOGO -->
+        <h1 class="sidebar-logo">
+            GEMDURBAR
+        </h1>
+
+        <!-- NAV LINKS -->
+        <a href="index.html">Home</a>
+
+        <a href="allgems.html">All Gems</a>
+
+        <a href="custom.html">Custom Designs</a>
+
+        <a href="gemguide.html">Gem Guide</a>
+
+        <a href="index.html#footer">About</a>
+
+    </div>
+
+    <!-- OVERLAY -->
+    <div class="overlay" id="overlay"></div>
+
+
+<!-- OVERLAY -->
+<div class="overlay" id="overlay"></div>
+
+<script>const menuBtn = document.getElementById("menuBtn");
+
+const sidebar = document.getElementById("sidebar");
+
+const closeBtn = document.getElementById("closeBtn");
+
+const overlay = document.getElementById("overlay");
+
+/* OPEN MENU */
+menuBtn.addEventListener("click", () => {
+
+    sidebar.classList.add("active");
+
+    overlay.classList.add("active");
+
+    menuBtn.classList.add("active");
+
+});
+
+/* CLOSE FUNCTION */
+function closeMenu(){
+
+    sidebar.classList.remove("active");
+
+    overlay.classList.remove("active");
+
+    menuBtn.classList.remove("active");
+
+}
+
+/* CLOSE BUTTON */
+closeBtn.addEventListener("click", closeMenu);
+
+/* OVERLAY CLICK */
+overlay.addEventListener("click", closeMenu);</script>
+<!-- HERO SECTION -->
+
+  <section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>Custom Jewellery & Gem Designs</h1>
+
+      <p>
+        Create premium custom gemstone jewellery with unique luxury designs,
+        handcrafted settings, and personalized collections only at Gemdurbar.
+      </p>
+
+      <a href="#" class="hero-btn">Explore Designs</a>
+    </div>
+
+  </section>
+
+  <!-- INTRO SECTION -->
+
+  <section class="intro">
+
+    <h2>Luxury Crafted Custom Collections</h2>
+
+    <p>
+      At Gemdurbar, we transform precious gemstones into timeless masterpieces.
+      From royal rings to modern necklaces, our custom design collection is built
+      with elegance, perfection, and premium craftsmanship.
+    </p>
+
+  </section>
+
+  <!-- DESIGN SECTION -->
+
+  <section class="designs-container">
+
+    <!-- CARD 1 -->
+
+    <div class="design-card">
+      <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1200&auto=format&fit=crop" alt="Luxury Ring">
+
+      <div class="card-content">
+        <h3>Royal Rings</h3>
+
+        <ul>
+          <li>Custom engagement rings</li>
+          <li>Luxury diamond settings</li>
+          <li>Premium gemstone finishing</li>
+          <li>Modern and royal styles</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+
+    <div class="design-card">
+      <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop" alt="Necklace">
+
+      <div class="card-content">
+        <h3>Designer Necklaces</h3>
+
+        <ul>
+          <li>Elegant gemstone necklaces</li>
+          <li>Luxury gold and silver designs</li>
+          <li>Traditional and modern collections</li>
+          <li>Personalized custom pendants</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+
+    <div class="design-card">
+      <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?q=80&w=1200&auto=format&fit=crop" alt="Bracelets">
+
+      <div class="card-content">
+        <h3>Premium Bracelets</h3>
+
+        <ul>
+          <li>Luxury gemstone bracelets</li>
+          <li>Minimal modern designs</li>
+          <li>Handcrafted premium finishing</li>
+          <li>Custom size availability</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+
+    <div class="design-card">
+      <img src="https://images.unsplash.com/photo-1627293509201-cd0c780043e6?q=80&w=1200&auto=format&fit=crop" alt="Earrings">
+
+      <div class="card-content">
+        <h3>Elegant Earrings</h3>
+
+        <ul>
+          <li>Diamond and ruby earrings</li>
+          <li>Premium handcrafted patterns</li>
+          <li>Classic luxury collections</li>
+          <li>Exclusive gemstone styles</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CARD 5 -->
+
+    <div class="design-card">
+      <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1200&auto=format&fit=crop" alt="Wedding Jewellery">
+
+      <div class="card-content">
+        <h3>Wedding Collections</h3>
+
+        <ul>
+          <li>Complete bridal jewellery sets</li>
+          <li>Luxury royal finishing</li>
+          <li>Traditional gemstone combinations</li>
+          <li>Custom wedding designs</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CARD 6 -->
+
+    <div class="design-card">
+      <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1200&auto=format&fit=crop" alt="Luxury Jewellery">
+
+      <div class="card-content">
+        <h3>Exclusive Luxury Designs</h3>
+
+        <ul>
+          <li>Unique high-end collections</li>
+          <li>Rare gemstone settings</li>
+          <li>Premium handcrafted detailing</li>
+          <li>Luxury designer jewellery</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CONTACT SECTION -->
+
+  <section class="contact-section">
+
+    <h2>Create Your Own Design</h2>
+
+    <p>
+      Share your dream jewellery concept with Gemdurbar and let our professional
+      designers craft a masterpiece exclusively for you.
+    </p>
+
+    <a href="#" class="contact-btn">Request Custom Design</a>
+
+  </section>
+
+</body>
+</html>
